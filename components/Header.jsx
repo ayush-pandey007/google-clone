@@ -1,7 +1,12 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
 import { useRef } from "react";
-import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/outline";
+import {
+  MicrophoneIcon,
+  SearchIcon,
+  UserCircleIcon,
+  XIcon,
+} from "@heroicons/react/outline";
 import Avatar from "./Avatar";
 import HeaderOptions from "./HeaderOptions";
 
@@ -48,7 +53,7 @@ function Header() {
             serach
           </button>
         </form>
-        <Avatar url="https://coaching.papareact.com/ai9" className="ml-auto" />
+        <UserCircleIcon className="h-10" />
       </div>
       <HeaderOptions />
     </header>
