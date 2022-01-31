@@ -53,7 +53,7 @@ function Header() {
             serach
           </button>
         </form>
-        <UserCircleIcon className="h-10" />
+        <UserCircleIcon className=" ml-auto h-10" />
       </div>
       <HeaderOptions />
     </header>
